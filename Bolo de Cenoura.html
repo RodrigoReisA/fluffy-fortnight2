@@ -1,6 +1,8 @@
 <!DOCTYPE html> <!-- O tipo do arquivo é HTML, isso especifica -->
 
-<httml> <!-- Esse é o root -->
+<header> <!-- Esse é o cabeçalho -->
+
+<html lang="pt"> <!-- Esse é o root, o lang especifica a linguagem e o pt, obviamente, português -->
 <head> <!-- É a cabeça do projeto, geralmente hospedando os títulos ou os h1 da pagina -->
     <meta charset="utf-8"> </meta> <!-- É uma estrutura de configuração para o HEAD -->
     <title> Bolo de Cenoura </title> <!-- Essa é a descrição que vai aparecer, geralmente na parte de fora do arquivo mais acima, na aba -->
@@ -15,23 +17,40 @@
 vai puxar a imagem de lá, e ai vai aparecer na página, caso não exista nada disso, ficará sem imagem e o alt de acordo com o que você digitar vai descrever a imagem. O Width define
 a largura e o height o comprimento da imagem  -->
 
+<nav>  <!-- Navegação, tudo aqui dentro gera um link para você navegar -->
+    <ul> <!-- Ul siginifica lista não ordenada, siginfica que vai aparecer mais separado porém não vai ter uma ordem -->
+    <li> <!-- li vai fazer aparecer um pontinho preto antes da escrita, muito bom para listagem -->
+        <a href="https://www.receitasnestle.com.br/receitas/bolo-de-cenoura-com-cobertura-de-brigadeiro?utm_campaign=Aon-Recipes-NC005799_BR_FOOD_FLWDRS_NEST_L60_ANMW_Search-Pratos_CON_FND_NonBrand_Search-Google&utm_source=google&utm_source_platform=ga&utm_medium=cpc&utm_content=cpc&gclsrc=aw.ds&gad_source=1&gclid=CjwKCAjwvr--BhB5EiwAd5YbXkKHl4eaqCO4fiY8DLz-TpBS-KRNymOopYcwLeSM3fcpukLUWIakjxoCgrEQAvD_BwE">Para mais informações</a>
+    </li>    
+    Projetos
+    </ul>
+    </nav>
+
 </head>
+
+</header>
+
+<main> <!-- Conteúdo principal da página -->
 
 <body> <!-- Corpo do projeto, aqui fica o desenvolvimento, o conteúdo -->
 
 
-
+<section id="Ingredientes"> <!-- Serve para separar o código em setores, o ID especifica o setor -->
     
-
 
 <h2> Ingredientes</h2>
 <!-- H2 é o subtítulo, ele aparecerá menor que o título mas com destaque. -->
 <ul>
-    <!-- Ul siginifica lista não ordenada, siginfica que vai aparecer mais separado porém não vai ter uma ordem -->
-   <li> Farinha 1kg </li>  <!-- li vai fazer aparecer um pontinho preto antes da escrita, muito bom para listagem -->
+    
+   <li> Farinha 1kg </li>  
     <li> Cacau em pó 100g </li>
     <li> 1 cenoura ralada </li>
+
 </ul>
+
+</section>
+
+<section  id="Modo de preparo">
 
 <h3> Modo de preparo</h3>
 
@@ -48,6 +67,18 @@ a largura e o height o comprimento da imagem  -->
     "Para mais informações" que estará destacado em azul, você será direcionado, isso é um hiperlink -->
     <li> <a href="#trabalhos">Trabalhos</a></li> <!-- Ao invés de ser direcionado para uma página nova, aqui você será direcionado até a parte na mesma pagina vinculado ao id "Trabalhos"
     no qual está mais abaixo, perceba que depois do href foi colocado uma #, isso é para se referir a id -->
+
+</section>
+
+</main>
+
+<aside> <!-- Conteúdo que se encontra na lateral da página -->
+
+
+
+</aside>
+
+
     <br> <!-- Só pra criar linha mesmo -->
     <br>
     <br>
@@ -140,6 +171,8 @@ a largura e o height o comprimento da imagem  -->
     <br>
     <br>
 
+    <footer> <!-- Rodapé, geralmente com informações extras do site.  -->
+
     <div id="trabalhos"> <!-- Aqui cria o ID "trabalhos", para lá encima ser linkado com aqui embaixo -->
         Esse conteúdo é meramente ilustrativo não sei o que escrever aqui é só pra encher linguica para um teste.
     </div>
@@ -148,7 +181,7 @@ a largura e o height o comprimento da imagem  -->
 
 
 </ol>
-
+    </footer>
 </body>
 
 </httml>
